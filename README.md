@@ -16,7 +16,7 @@
 
 You can test the full capabilities of **Stockify** directly on your Android phone:
 
-👉 **[Download Latest Stockify Android APK Here](https://github.com/awaiskhans4039-cpu/Stockify-app-public-repository/releases)**  
+👉 **[Download Latest Stockify Android APK Here](https://txhcdtownkvydrdxlmjd.supabase.co/storage/v1/object/public/App_release/Stockify%20version%203.4.4.apk)**  
 *(Alternatively, insert your Google Drive / Direct APK download link here)*
 
 > **Installation Tip:** When installing on Android for testing, allow "Install from Unknown Sources" if prompted by your browser/file manager.
