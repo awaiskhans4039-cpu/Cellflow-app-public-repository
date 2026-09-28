@@ -68,7 +68,9 @@ Managing a mobile retail business involves tracking high-value devices by **uniq
 - **Interactive Visualizations:** Dynamic 7-day, 14-day, and 30-day Bar & Line charts powered by date-normalized analytics.
 - **Performance Metrics:** Real-time insights into top-selling products and highest-margin categories.
 
-### 8. 🛡️ Security, Biometrics & Staff Permissions
+### 8. 🛡️ Security, Biometrics & Multi-Device Control
+- **Multi-Device Session Management:** Choose between single-device logout or global session termination with live connected devices view.
+- **Automatic Password Reset Invalidation:** Resetting a forgotten password automatically revokes all active sessions across all devices globally.
 - **Biometric Authentication:** Unlock the application using device Fingerprint or Face ID via `capacitor-native-biometric`.
 - **Salesman Protection Mode:** Restrict staff from viewing wholesale cost prices, profit margins, reports, or shop settings.
 - **Auto-Lock Security:** Configurable idle timeout lock with master PIN fallback.
