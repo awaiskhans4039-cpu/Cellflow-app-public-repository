@@ -18,6 +18,7 @@
 Test the speed, offline reliability, and real-time multi-device sync of **CellFlow** directly on your Android smartphone:
 
 📥 **[Download Latest CellFlow Android APK (Direct Link)](https://txhcdtownkvydrdxlmjd.supabase.co/storage/v1/object/public/App_release/CellFlow%20V3.4.8.apk)** | **[Official Website](https://cellflow.shop)**  
+📄 **[Read v3.4.8 Release Notes & Changelog](RELEASE_NOTES.md)**  
 🌐 **Official Website:** [https://cellflow.shop](https://cellflow.shop)
 
 > 💡 **Get Started:** Visit [cellflow.shop](https://cellflow.shop) to download the official release APK, test live repair tracking, and explore interactive calculators. Allow *"Install from Unknown Sources"* if prompted on Android.
