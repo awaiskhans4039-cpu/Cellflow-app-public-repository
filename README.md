@@ -2,7 +2,7 @@
 
 [![Website](https://img.shields.io/badge/Website-cellflow.shop-0ea5e9.svg)](https://cellflow.shop)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Web-10b981.svg)](https://capacitorjs.com/)
-[![Version](https://img.shields.io/badge/Version-v3.4.8-2563eb.svg)](https://github.com/awaiskhans4039-cpu/Cellflow-app-public-repository)
+[![Version](https://img.shields.io/badge/Version-v3.5-2563eb.svg)](https://github.com/awaiskhans4039-cpu/Cellflow-app-public-repository)
 [![React](https://img.shields.io/badge/React-19.x-38bdf8.svg?logo=react)](https://react.dev/)
 [![Capacitor](https://img.shields.io/badge/Capacitor-7.x-119EFF.svg?logo=capacitor)](https://capacitorjs.com/)
 [![Backend](https://img.shields.io/badge/Backend-Supabase%20PostgreSQL%20%26%20Realtime-3ECF8E.svg?logo=supabase)](https://supabase.com/)
@@ -17,8 +17,8 @@
 
 Test the speed, offline reliability, and real-time multi-device sync of **CellFlow** directly on your Android smartphone:
 
-📥 **[Download Latest CellFlow Android APK (Direct Link)](https://txhcdtownkvydrdxlmjd.supabase.co/storage/v1/object/public/App_release/CellFlow%20V3.4.8.apk)** | **[Official Website](https://cellflow.shop)**  
-📄 **[Read v3.4.8 Release Notes & Changelog](RELEASE_NOTES.md)**  
+📥 **[Download Latest CellFlow Android APK (Direct Link)](https://txhcdtownkvydrdxlmjd.supabase.co/storage/v1/object/public/App_release/Cellflow%20V3.5.apk)** | **[Official Website](https://cellflow.shop)**  
+📄 **[Read v3.5 Release Notes & Changelog](RELEASE_NOTES.md)**  
 🌐 **Official Website:** [https://cellflow.shop](https://cellflow.shop)
 
 > 💡 **Get Started:** Visit [cellflow.shop](https://cellflow.shop) to download the official release APK, test live repair tracking, and explore interactive calculators. Allow *"Install from Unknown Sources"* if prompted on Android.

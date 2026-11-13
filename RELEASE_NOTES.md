@@ -1,9 +1,9 @@
-# 🚀 CellFlow Android Release Notes — Version 3.4.8
+# 🚀 CellFlow Android Release Notes — Version 3.5
 
-**Release Tag:** `v3.4.8-production`  
+**Release Tag:** `v3.5-production`  
 **Target Platform:** Android (Smartphones & Tablets)  
-**APK Build:** `CellFlow V3.4.8.apk`  
-**Direct Download:** [Download CellFlow v3.4.8 APK](https://txhcdtownkvydrdxlmjd.supabase.co/storage/v1/object/public/App_release/CellFlow%20V3.4.8.apk)  
+**APK Build:** `Cellflow V3.5.apk`  
+**Direct Download:** [Download CellFlow v3.5 APK](https://txhcdtownkvydrdxlmjd.supabase.co/storage/v1/object/public/App_release/Cellflow%20V3.5.apk)  
 **Official Portal:** [cellflow.shop](https://cellflow.shop)  
 
 ---
@@ -57,9 +57,10 @@
 ## 📲 How to Update
 
 1. Download the latest APK:  
-   👉 [CellFlow V3.4.8.apk (Direct Download)](https://txhcdtownkvydrdxlmjd.supabase.co/storage/v1/object/public/App_release/CellFlow%20V3.4.8.apk)
+   👉 [Cellflow V3.5.apk (Direct Download)](https://txhcdtownkvydrdxlmjd.supabase.co/storage/v1/object/public/App_release/Cellflow%20V3.5.apk)
 2. Open the downloaded file on your Android phone and select **Update / Install**.
 3. All existing shop stock, Khata ledgers, and repair tickets will remain **100% intact and automatically upgraded**.
 
 ---
 *Developed by Awais Khan (AK Softech) · [support@cellflow.shop](mailto:support@cellflow.shop) · [cellflow.shop](https://cellflow.shop)*
+
