@@ -2,7 +2,7 @@
 
 [![Website](https://img.shields.io/badge/Website-cellflow.shop-0ea5e9.svg)](https://cellflow.shop)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Web-10b981.svg)](https://capacitorjs.com/)
-[![Version](https://img.shields.io/badge/Version-v3.5-2563eb.svg)](https://github.com/awaiskhans4039-cpu/Cellflow-app-public-repository)
+[![Version](https://img.shields.io/badge/Version-v3.5.1-2563eb.svg)](https://github.com/awaiskhans4039-cpu/Cellflow-app-public-repository)
 [![React](https://img.shields.io/badge/React-19.x-38bdf8.svg?logo=react)](https://react.dev/)
 [![Capacitor](https://img.shields.io/badge/Capacitor-7.x-119EFF.svg?logo=capacitor)](https://capacitorjs.com/)
 [![Backend](https://img.shields.io/badge/Backend-Supabase%20PostgreSQL%20%26%20Realtime-3ECF8E.svg?logo=supabase)](https://supabase.com/)
@@ -17,8 +17,8 @@
 
 Test the speed, offline reliability, and real-time multi-device sync of **CellFlow** directly on your Android smartphone:
 
-📥 **[Download Latest CellFlow Android APK (Direct Link)](https://txhcdtownkvydrdxlmjd.supabase.co/storage/v1/object/public/App_release/Cellflow%20V3.5.apk)** | **[Official Website](https://cellflow.shop)**  
-📄 **[Read v3.5 Release Notes & Changelog](RELEASE_NOTES.md)**  
+📥 **[Download Latest CellFlow v3.5.1 Android APK (Direct Link)](https://txhcdtownkvydrdxlmjd.supabase.co/storage/v1/object/public/App_release/cellflow%20v3.5.1.apk)** | **[Official Website](https://cellflow.shop)**  
+📄 **[Read v3.5.1 Release Notes & Changelog](RELEASE_NOTES.md)**  
 🌐 **Official Website:** [https://cellflow.shop](https://cellflow.shop)
 
 > 💡 **Get Started:** Visit [cellflow.shop](https://cellflow.shop) to download the official release APK, test live repair tracking, and explore interactive calculators. Allow *"Install from Unknown Sources"* if prompted on Android.
@@ -81,12 +81,13 @@ One of CellFlow's standout breakthroughs is **Salesman Mode** — purpose-built 
 - **Repair Job Cards & Lifecycle Tracking:** Track repairs through *Received ➔ In Progress ➔ Completed ➔ Delivered*, including advance deposits and spare-part inventory deduction.
 - **Used Handset Seller Verification:** Record seller CNIC, phone details, IMEI, and photos to generate proof-of-purchase slips protecting shops against stolen devices.
 
-### 6. 🌐 Bilingual English & Urdu (Nastaliq) Experience
-- Native support for **English** and **Urdu** with bundled *Jameel Noori Nastaleeq* & *Noto Nastaliq* typography, Dark/Light themes, and responsive mobile-first layouts across all screen widths.
+### 6. 🌐 Bilingual English & Urdu (Nastaliq) Experience + Info Guides
+- Native support for **English** and **Urdu** with bundled *Jameel Noori Nastaleeq* & *Noto Nastaliq* typography, redesigned Settings/Inventory/Khata interfaces, Dark/Light themes, and responsive overflow-guarded layouts across all screen widths.
+- **Press & Hold Metric Guides:** Long-press summary cards across Dashboard, Inventory, Khata, Products, Payments, and Sales History to view plain-language explanations in pure English or Urdu.
 
 ---
 
-## 🏗️ Enterprise Sync & Reliability Architecture
+## 🏗️ Enterprise Sync, Security & Reliability Architecture
 
 CellFlow uses a **Local-First, Cloud-Authoritative Delta** architecture engineered for zero counter downtime, low data egress, and conflict-free multi-device operation:
 
@@ -105,10 +106,12 @@ CellFlow uses a **Local-First, Cloud-Authoritative Delta** architecture engineer
                                  └── Encrypted .shopbak Disaster-Recovery Backups
 ```
 
-### Key Architectural Guarantees:
+### Key Architectural & Security Guarantees:
 - **Zero-Echo Realtime Delta Engine:** Synchronizes single-row database changes instantaneously across connected devices while suppressing local write echoes to eliminate sync loops and unnecessary database egress.
+- **Brute-Force PIN Protection & PBKDF2 Crypto:** Enforces progressive temporary lockouts on failed PIN attempts alongside `120,000`-iteration salted `PBKDF2` hashing and Android auto-backup extraction protection (`allowBackup="false"`).
+- **Scoped Salesman Authentication & Zero-Leak RLS:** Salesman devices authenticate with isolated scoped credentials, Admin devices block accidental self-pairing into Salesman Mode, and PostgreSQL Row-Level Security isolates every shop's data.
 - **Automatic Edge Server Time-Drift Correction:** Measures clock skew against authoritative server time via zero-cost HTTP headers, ensuring chronological accuracy and clean conflict resolution even if a device clock is misconfigured.
-- **ACID-Compliant Database Procedures:** Multi-step sales, reversals, Khata settlements, and repair deliveries execute atomically inside PostgreSQL transactions, preventing partial writes or stock mismatches.
+- **ACID-Compliant Database Procedures & SHA-256 OTA:** Multi-step sales, reversals, Khata settlements, and repair deliveries execute atomically inside PostgreSQL transactions, while live OTA updates verify `SHA-256` checksums before activation.
 - **Encrypted Backups:** Scheduled daily `.shopbak` local archives and encrypted cloud restoration flows.
 
 ---
