@@ -23,6 +23,13 @@ Test the speed, offline reliability, and real-time multi-device sync of **CellFl
 
 > 💡 **Get Started:** Visit [cellflow.shop](https://cellflow.shop) to download the official release APK, test live repair tracking, and explore interactive calculators. Allow *"Install from Unknown Sources"* if prompted on Android.
 
+### 🔗 Official CellFlow Guides & Module Pages (`cellflow.shop`)
+- [Mobile Shop Software Pakistan (POS, IMEI & Khata)](https://cellflow.shop/mobile-shop-software-pakistan)
+- [Free Mobile Shop Software & Android APK Trial](https://cellflow.shop/free-mobile-shop-software)
+- [Mobile Shop Management & Billing App (Android)](https://cellflow.shop/mobile-shop-management-app)
+- [Mobile Repair Shop Software & Live Customer Tracker](https://cellflow.shop/mobile-repair-shop-software)
+- [Dual IMEI Inventory, Digital Khata & Qist (EMI) App](https://cellflow.shop/imei-inventory-khata-qist-app)
+
 ---
 
 ## 🌟 About CellFlow
